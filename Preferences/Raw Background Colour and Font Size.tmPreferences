@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Raw Background Colour and Font Size</string>
+	<key>scope</key>
+	<string>markup.raw.block, markup.raw, meta.raw.block, markup.raw.inline</string>
+	<key>settings</key>
+	<dict>
+		<key>background</key>
+		<string>#f0f0f0</string>
+		<key>fontName</key>
+		<string>inherit</string>
+		<key>fontSize</key>
+		<string>95%</string>
+	</dict>
+	<key>uuid</key>
+	<string>0A70B5FF-6962-41BF-945E-D0FFFD819F59</string>
+</dict>
+</plist>
