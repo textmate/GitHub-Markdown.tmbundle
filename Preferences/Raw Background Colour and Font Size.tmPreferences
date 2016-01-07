@@ -11,7 +11,7 @@
 		<key>background</key>
 		<string>#f0f0f0</string>
 		<key>fontName</key>
-		<string>inherit</string>
+		<string>Menlo</string>
 		<key>fontSize</key>
 		<string>95%</string>
 	</dict>
