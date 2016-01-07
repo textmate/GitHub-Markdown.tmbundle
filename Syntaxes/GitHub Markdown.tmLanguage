@@ -5,9 +5,9 @@
 	<key>fileTypes</key>
 	<array>
 		<string>md</string>
-    <string>mdown</string>
-    <string>markdown</string>
-    <string>markdn</string>
+		<string>mdown</string>
+		<string>markdown</string>
+		<string>markdn</string>
 	</array>
 	<key>hideFromUser</key>
 	<true/>
