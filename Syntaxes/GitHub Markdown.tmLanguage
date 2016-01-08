@@ -12,7 +12,7 @@
 	<key>hideFromUser</key>
 	<true/>
 	<key>injectionSelector</key>
-	<string>(L:text.html.markdown)</string>
+	<string>(text.html.markdown)</string>
 	<key>keyEquivalent</key>
 	<string>^~M</string>
 	<key>name</key>
@@ -21,27 +21,22 @@
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>^(```(shell|bash|sh))\n</string>
-			<key>captures</key>
+			<string>(^|\G)([`~]{3,}) *(shell|bash|sh)$</string>
+			<key>beginCaptures</key>
 			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
-				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>string.other.raw.syntax.markdown</string>
+					<string>punctuation.definition.raw.markdown</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
+					<string>string.other.raw.syntax.markdown</string>
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>^(```)\n</string>
+			<string>(^|\G)\2\n?</string>
 			<key>name</key>
 			<string>markup.raw.block.markdown.shell</string>
 			<key>patterns</key>
@@ -54,27 +49,22 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>^(```(ruby|rb))\n</string>
-			<key>captures</key>
+			<string>(^|\G)([`~]{3,}) *(ruby|rb)$</string>
+			<key>beginCaptures</key>
 			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
-				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>string.other.raw.syntax.markdown</string>
+					<string>punctuation.definition.raw.markdown</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
+					<string>string.other.raw.syntax.markdown</string>
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>^(```)\n</string>
+			<string>(^|\G)\2\n?</string>
 			<key>name</key>
 			<string>markup.raw.block.markdown.ruby</string>
 			<key>patterns</key>
@@ -87,24 +77,17 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>^(```(\w+))\n</string>
-			<key>captures</key>
+			<string>(^|\G)([`~]{3}) *(\w*)$</string>
+			<key>beginCaptures</key>
 			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
-				</dict>
 				<key>2</key>
-				<dict/>
-				<key>3</key>
 				<dict>
 					<key>name</key>
 					<string>punctuation.definition.raw.markdown</string>
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>^(```)\n</string>
+			<string>(^|\G)\2\n?</string>
 			<key>name</key>
 			<string>markup.raw.block.markdown</string>
 		</dict>
