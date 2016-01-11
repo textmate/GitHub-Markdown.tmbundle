@@ -38,7 +38,7 @@ html_footer</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>^~@m</string>
+	<string>^~@p</string>
 	<key>name</key>
 	<string>Preview</string>
 	<key>outputCaret</key>
@@ -48,7 +48,7 @@ html_footer</string>
 	<key>outputLocation</key>
 	<string>newWindow</string>
 	<key>scope</key>
-	<string>text.html.markdown</string>
+	<string>text.html.markdown attr</string>
 	<key>uuid</key>
 	<string>E7A435B2-F6D1-487E-B5F0-AE90F0592A68</string>
 	<key>version</key>
