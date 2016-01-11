@@ -8,7 +8,7 @@ Provides some [GitHub Flavoured Markdown](https://help.github.com/articles/githu
 - Use the default font (i.e. Helvetica) for the Markdown editor settings
 - Use the default font size for the Markdown editor hash/pound prefix
 - Set a grey background colour and reduce the size of the monospaced text in the Markdown editor
-- Support triple-backtick raw blocks and support syntax highlighting for Ruby and Shell (others can be added trivially)
+- Support triple-backtick raw blocks and support syntax highlighting for GitHub's top 10 languages and shell scripts (others can be added trivially)
 
 ## Installation
 ### TextMate 2
