@@ -21,7 +21,7 @@
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>(^|\G)([`~]{3,}) *(shell|bash|sh)$</string>
+			<string>(^|\G)([`~]{3,}) *(javascript|js|node)$</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>2</key>
@@ -38,18 +38,18 @@
 			<key>end</key>
 			<string>(^|\G)\2\n?</string>
 			<key>name</key>
-			<string>markup.raw.block.markdown.shell</string>
+			<string>markup.raw.block.markdown.github.javascript</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>include</key>
-					<string>source.shell</string>
+					<string>source.js</string>
 				</dict>
 			</array>
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(^|\G)([`~]{3,}) *(ruby|rb)$</string>
+			<string>(^|\G)([`~]{3,}) *(java)$</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>2</key>
@@ -66,12 +66,264 @@
 			<key>end</key>
 			<string>(^|\G)\2\n?</string>
 			<key>name</key>
-			<string>markup.raw.block.markdown.ruby</string>
+			<string>markup.raw.block.markdown.github.java</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.java</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(^|\G)([`~]{3,}) *(ruby|jruby|macruby|rake|rb|rbx)$</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.markdown</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.other.raw.syntax.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(^|\G)\2\n?</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown.github.ruby</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>include</key>
 					<string>source.ruby</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(^|\G)([`~]{3,}) *(php|inc)$</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.markdown</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.other.raw.syntax.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(^|\G)\2\n?</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown.github.php</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>text.html.php</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(^|\G)([`~]{3,}) *(python|rusthon)$</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.markdown</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.other.raw.syntax.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(^|\G)\2\n?</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown.github.python</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.python</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(^|\G)([`~]{3,}) *(css)$</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.markdown</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.other.raw.syntax.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(^|\G)\2\n?</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown.github.css</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.css</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(^|\G)([`~]{3,}) *(c\+\+|cpp)$</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.markdown</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.other.raw.syntax.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(^|\G)\2\n?</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown.github.c++</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.c++</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(^|\G)([`~]{3,}) *(c#|csharp)$</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.markdown</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.other.raw.syntax.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(^|\G)\2\n?</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown.github.csharp</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.cs</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(^|\G)([`~]{3,}) *(c)$</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.markdown</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.other.raw.syntax.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(^|\G)\2\n?</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown.github.c</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.c</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(^|\G)([`~]{3,}) *(html|xhtml)$</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.markdown</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.other.raw.syntax.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(^|\G)\2\n?</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown.github.html</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>text.html.basic</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(^|\G)([`~]{3,}) *(shell|sh|bash|zsh)$</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.markdown</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.other.raw.syntax.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(^|\G)\2\n?</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown.github.shell</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.shell</string>
 				</dict>
 			</array>
 		</dict>
@@ -89,7 +341,91 @@
 			<key>end</key>
 			<string>(^|\G)\2\n?</string>
 			<key>name</key>
-			<string>markup.raw.block.markdown</string>
+			<string>markup.raw.block.markdown.github</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.strikethrough.markdown.github</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>string.other.strikethrough.markdown.github</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.strikethrough.markdown.github</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(~~)([^~]*)(~~)</string>
+			<key>name</key>
+			<string>markup.other.strikethrough.markdown.github</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.markdown.github</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>string.other.link.title.markdown.github</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.markdown.github</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(\[)([^\]]*)(\])</string>
+			<key>name</key>
+			<string>meta.link.reference.markdown.github</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(\|)?(.+)(\|)(.+)(\|)?</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.table.markdown.github</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>string.other.table.markdown.github</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.table.markdown.github</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>string.other.table.markdown.github</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.table.markdown.github</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(?!(.+)(\|)(.+))</string>
+			<key>name</key>
+			<string>markup.raw.table.markdown.github</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
