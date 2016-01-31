@@ -36,6 +36,10 @@ class PygmentsSmartyHTML < Redcarpet::Render::HTML
   end
 end
 
+def checkbox_html(checked)
+  "<li><input type='checkbox' #{"checked" if checked} style='margin-right:0.5em;'/>"
+end
+
 def markdown(text)
   options = {
     :filter_html     => true,
@@ -52,7 +56,10 @@ def markdown(text)
     :strikethrough       => true,
     :space_after_headers => true,
   }
-  Redcarpet::Markdown.new(renderer, extensions).render(text)
+  html = Redcarpet::Markdown.new(renderer, extensions).render(text)
+  html.gsub!("<li>[ ]", checkbox_html(false))
+  html.gsub!("<li>[x]", checkbox_html(true))
+  html
 end
 
 puts "<style>#{Pygments.css(:style => "colorful")}</style>"
