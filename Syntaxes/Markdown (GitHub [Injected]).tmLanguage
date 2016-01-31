@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>md</string>
+		<string>mdown</string>
+		<string>markdown</string>
+		<string>markdn</string>
+	</array>
+	<key>hideFromUser</key>
+	<true/>
+	<key>injectionSelector</key>
+	<string>(L:text.html.markdown)</string>
+	<key>keyEquivalent</key>
+	<string>^~M</string>
+	<key>name</key>
+	<string>Markdown (GitHub Injected)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.italic.markdown.github</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>string.other.italic.markdown.github</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.italic.markdown.github</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(_)(?=\w)(?&lt;=\w_)</string>
+			<key>name</key>
+			<string>markup.italic.markdown.github</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.html.markdown.github</string>
+	<key>uuid</key>
+	<string>8CD0FA72-F70B-446E-9B6B-A79FC90639EE</string>
+</dict>
+</plist>
