@@ -21,7 +21,7 @@
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>(^|\G)([`~]{3,}) *(javascript|js|node)$</string>
+			<string>(^|\G)\s*([`~]{3,})\s*(javascript|js|node)\s*$</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>2</key>
@@ -36,7 +36,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\2\n?</string>
+			<string>(^|\G)\s*\2\n?</string>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.javascript</string>
 			<key>patterns</key>
@@ -49,7 +49,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(^|\G)([`~]{3,}) *(java)$</string>
+			<string>(^|\G)\s*([`~]{3,})\s*(java)\s*$</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>2</key>
@@ -64,7 +64,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\2\n?</string>
+			<string>(^|\G)\s*\2\n?</string>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.java</string>
 			<key>patterns</key>
@@ -77,7 +77,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(^|\G)([`~]{3,}) *(ruby|jruby|macruby|rake|rb|rbx)$</string>
+			<string>(^|\G)\s*([`~]{3,})\s*(ruby|jruby|macruby|rake|rb|rbx)\s*$</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>2</key>
@@ -92,7 +92,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\2\n?</string>
+			<string>(^|\G)\s*\2\n?</string>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.ruby</string>
 			<key>patterns</key>
@@ -105,7 +105,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(^|\G)([`~]{3,}) *(php|inc)$</string>
+			<string>(^|\G)\s*([`~]{3,})\s*(php|inc)\s*$</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>2</key>
@@ -120,7 +120,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\2\n?</string>
+			<string>(^|\G)\s*\2\n?</string>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.php</string>
 			<key>patterns</key>
@@ -133,7 +133,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(^|\G)([`~]{3,}) *(python|rusthon)$</string>
+			<string>(^|\G)\s*([`~]{3,})\s*(python|rusthon)\s*$</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>2</key>
@@ -148,7 +148,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\2\n?</string>
+			<string>(^|\G)\s*\2\n?</string>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.python</string>
 			<key>patterns</key>
@@ -161,7 +161,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(^|\G)([`~]{3,}) *(css)$</string>
+			<string>(^|\G)\s*([`~]{3,})\s*(css)\s*$</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>2</key>
@@ -176,7 +176,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\2\n?</string>
+			<string>(^|\G)\s*\2\n?</string>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.css</string>
 			<key>patterns</key>
@@ -189,7 +189,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(^|\G)([`~]{3,}) *(c\+\+|cpp)$</string>
+			<string>(^|\G)\s*([`~]{3,})\s*(c\+\+|cpp)\s*$</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>2</key>
@@ -204,7 +204,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\2\n?</string>
+			<string>(^|\G)\s*\2\n?</string>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.c++</string>
 			<key>patterns</key>
@@ -217,7 +217,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(^|\G)([`~]{3,}) *(c#|csharp)$</string>
+			<string>(^|\G)\s*([`~]{3,})\s*(c#|csharp)\s*$</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>2</key>
@@ -232,7 +232,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\2\n?</string>
+			<string>(^|\G)\s*\2\n?</string>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.csharp</string>
 			<key>patterns</key>
@@ -245,7 +245,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(^|\G)([`~]{3,}) *(c)$</string>
+			<string>(^|\G)\s*([`~]{3,})\s*(c)\s*$</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>2</key>
@@ -260,7 +260,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\2\n?</string>
+			<string>(^|\G)\s*\2\n?</string>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.c</string>
 			<key>patterns</key>
@@ -273,7 +273,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(^|\G)([`~]{3,}) *(html|xhtml)$</string>
+			<string>(^|\G)\s*([`~]{3,})\s*(html|xhtml)\s*$</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>2</key>
@@ -288,7 +288,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\2\n?</string>
+			<string>(^|\G)\s*\2\n?</string>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.html</string>
 			<key>patterns</key>
@@ -301,7 +301,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(^|\G)([`~]{3,}) *(shell|sh|bash|zsh)$</string>
+			<string>(^|\G)\s*([`~]{3,})\s*(shell|sh|bash|zsh)\s*$</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>2</key>
@@ -316,7 +316,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\2\n?</string>
+			<string>(^|\G)\s*\2\n?</string>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.shell</string>
 			<key>patterns</key>
@@ -329,7 +329,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(^|\G)([`~]{3}) *(\w*)$</string>
+			<string>(^|\G)\s*([`~]{3})\s*(\w*)\s*$</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>2</key>
@@ -339,7 +339,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\2\n?</string>
+			<string>(^|\G)\s*\2\n?</string>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github</string>
 		</dict>
