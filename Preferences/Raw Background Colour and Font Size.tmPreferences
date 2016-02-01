@@ -8,8 +8,6 @@
 	<string>markup.raw.block, markup.raw, meta.raw.block, markup.raw.inline</string>
 	<key>settings</key>
 	<dict>
-		<key>background</key>
-		<string>#f0f0f0</string>
 		<key>fontName</key>
 		<string>Menlo</string>
 		<key>fontSize</key>
