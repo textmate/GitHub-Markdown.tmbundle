@@ -329,6 +329,34 @@
 		</dict>
 		<dict>
 			<key>begin</key>
+			<string>(^|\G)\s*([`~]{3,})\s*(go)\s*$</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.markdown</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.other.raw.syntax.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(^|\G)\s*\2\n?</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown.github.go</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.shell</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>(^|\G)\s*([`~]{3})\s*(\w*)\s*$</string>
 			<key>beginCaptures</key>
 			<dict>
