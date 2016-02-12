@@ -8,7 +8,7 @@ Provides some [GitHub Flavoured Markdown](https://help.github.com/articles/githu
 - Support triple-backtick raw blocks and support syntax highlighting for various languages (others can be added trivially)
 - Support and highlight GitHub Flavoured Markdown strikethroughs, tables, references, checkboxes and italics
 
-You can also use nicer fonts by installing the [GitHub Flavoured Markdown Font Settings bundle](https://github.com/mikemcquaid/GitHub-Markdown-Font-Settings.tmbundle]).
+You can also use nicer fonts by installing the [GitHub Flavoured Markdown Font Settings bundle](https://github.com/mikemcquaid/GitHub-Markdown-Font-Settings.tmbundle).
 
 ## Installation
 ### TextMate 2
