@@ -2,14 +2,13 @@
 Provides some [GitHub Flavoured Markdown](https://help.github.com/articles/github-flavored-markdown/) extensions for TextMate to make working with GitHub Flavoured Markdown nicer.
 
 ## Features
-- Add a new "Preview" command using [Redcarpet](https://github.com/vmg/redcarpet) to render GitHub Flavoured Markdown
-- Use Helvetica for the Markdown editor font and make it match the preview size
+- Add a new "Preview" command (overriding the existing Markdown preview) using [Redcarpet](https://github.com/vmg/redcarpet) to render GitHub Flavoured Markdown
 - Render all Markdown editor headings the same relative size as in the preview
-- Use the default font (i.e. Helvetica) for the Markdown editor settings
 - Use the default font size for the Markdown editor hash/pound prefix
-- Set a grey background colour and reduce the size of the monospaced text in the Markdown editor
-- Support triple-backtick raw blocks and support syntax highlighting for GitHub's top 10 languages and shell scripts (others can be added trivially)
+- Support triple-backtick raw blocks and support syntax highlighting for various languages (others can be added trivially)
 - Support and highlight GitHub Flavoured Markdown strikethroughs, tables, references, checkboxes and italics
+
+You can also use nicer fonts by installing the [GitHub Flavoured Markdown Font Settings bundle](https://github.com/mikemcquaid/GitHub-Markdown-Font-Settings.tmbundle]).
 
 ## Installation
 ### TextMate 2

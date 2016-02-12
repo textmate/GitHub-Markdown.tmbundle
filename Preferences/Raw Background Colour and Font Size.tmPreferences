@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Raw Background Colour and Font Size</string>
+	<string>Raw Font Size</string>
 	<key>scope</key>
 	<string>markup.raw.block, markup.raw, meta.raw.block, markup.raw.inline</string>
 	<key>settings</key>
 	<dict>
-		<key>fontName</key>
-		<string>Menlo</string>
 		<key>fontSize</key>
 		<string>95%</string>
 	</dict>
