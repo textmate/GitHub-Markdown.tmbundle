@@ -385,7 +385,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(^|\G)\s*([`~]{3})\s*(\w*)\s*$</string>
+			<string>(^|\G)\s*([`~]{3})\s*([\w-]*)\s*$</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>2</key>
