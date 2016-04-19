@@ -21,6 +21,34 @@
 	<array>
 		<dict>
 			<key>begin</key>
+			<string>(^|\G)\s*([`~]{3,})\s*(bib)\s*$</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.markdown</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.other.raw.syntax.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(^|\G)\s*\2\n?</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown.github.bibtex</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>text.bibtex</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>(^|\G)\s*([`~]{3,})\s*(javascript|js|node)\s*$</string>
 			<key>beginCaptures</key>
 			<dict>
@@ -72,6 +100,34 @@
 				<dict>
 					<key>include</key>
 					<string>source.java</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(^|\G)\s*([`~]{3,})\s*(latex|tex)\s*$</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.markdown</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.other.raw.syntax.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(^|\G)\s*\2\n?</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown.github.latex</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>text.tex.latex</string>
 				</dict>
 			</array>
 		</dict>
