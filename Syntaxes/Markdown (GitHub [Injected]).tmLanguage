@@ -12,7 +12,7 @@
 	<key>hideFromUser</key>
 	<true/>
 	<key>injectionSelector</key>
-	<string>(L:text.html.markdown)</string>
+	<string>(L:text.html.markdown markup.italic.markdown)</string>
 	<key>keyEquivalent</key>
 	<string>^~M</string>
 	<key>name</key>
