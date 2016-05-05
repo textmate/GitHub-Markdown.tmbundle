@@ -27,17 +27,11 @@
 					<key>name</key>
 					<string>punctuation.definition.italic.markdown.github</string>
 				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
-					<string>string.other.italic.markdown.github</string>
-				</dict>
-				<key>3</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.italic.markdown.github</string>
-				</dict>
 			</dict>
+			<key>comment</key>
+			<string>This rule matches underscores inside italics rules to catch the difference
+						between the handling of these between the standard Markdown and GitHub's
+						variant.</string>
 			<key>match</key>
 			<string>(_)(?=\w)(?&lt;=\w_)</string>
 			<key>name</key>
