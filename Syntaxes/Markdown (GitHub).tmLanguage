@@ -3,18 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
-	<array>
-		<string>md</string>
-		<string>mdown</string>
-		<string>markdown</string>
-		<string>markdn</string>
-	</array>
+	<array/>
 	<key>hideFromUser</key>
 	<true/>
 	<key>injectionSelector</key>
 	<string>(text.html.markdown)</string>
-	<key>keyEquivalent</key>
-	<string>^~M</string>
 	<key>name</key>
 	<string>Markdown (GitHub)</string>
 	<key>patterns</key>

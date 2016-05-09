@@ -2,19 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>fileTypes</key>
-	<array>
-		<string>md</string>
-		<string>mdown</string>
-		<string>markdown</string>
-		<string>markdn</string>
-	</array>
 	<key>hideFromUser</key>
 	<true/>
 	<key>injectionSelector</key>
 	<string>(L:text.html.markdown markup.italic.markdown)</string>
-	<key>keyEquivalent</key>
-	<string>^~M</string>
 	<key>name</key>
 	<string>Markdown (GitHub Injected)</string>
 	<key>patterns</key>
