@@ -35,6 +35,8 @@
 					<string>string.other.raw.syntax.markdown</string>
 				</dict>
 			</dict>
+			<key>contentName</key>
+			<string>text.bibtex</string>
 			<key>end</key>
 			<string>(^|\G)\s*(\2)\n?</string>
 			<key>endCaptures</key>
@@ -71,6 +73,8 @@
 					<string>string.other.raw.syntax.markdown</string>
 				</dict>
 			</dict>
+			<key>contentName</key>
+			<string>source.js</string>
 			<key>end</key>
 			<string>(^|\G)\s*(\2)\n?</string>
 			<key>endCaptures</key>
@@ -82,7 +86,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>markup.raw.block.javascript</string>
+			<string>markup.raw.block.js</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -107,6 +111,8 @@
 					<string>string.other.raw.syntax.markdown</string>
 				</dict>
 			</dict>
+			<key>contentName</key>
+			<string>source.java</string>
 			<key>end</key>
 			<string>(^|\G)\s*(\2)\n?</string>
 			<key>endCaptures</key>
@@ -143,6 +149,8 @@
 					<string>string.other.raw.syntax.markdown</string>
 				</dict>
 			</dict>
+			<key>contentName</key>
+			<string>text.tex.latex</string>
 			<key>end</key>
 			<string>(^|\G)\s*(\2)\n?</string>
 			<key>endCaptures</key>
@@ -179,6 +187,8 @@
 					<string>string.other.raw.syntax.markdown</string>
 				</dict>
 			</dict>
+			<key>contentName</key>
+			<string>source.ruby</string>
 			<key>end</key>
 			<string>(^|\G)\s*(\2)\n?</string>
 			<key>endCaptures</key>
@@ -215,6 +225,8 @@
 					<string>string.other.raw.syntax.markdown</string>
 				</dict>
 			</dict>
+			<key>contentName</key>
+			<string>text.html.php</string>
 			<key>end</key>
 			<string>(^|\G)\s*(\2)\n?</string>
 			<key>endCaptures</key>
@@ -251,6 +263,8 @@
 					<string>string.other.raw.syntax.markdown</string>
 				</dict>
 			</dict>
+			<key>contentName</key>
+			<string>source.python</string>
 			<key>end</key>
 			<string>(^|\G)\s*(\2)\n?</string>
 			<key>endCaptures</key>
@@ -287,6 +301,8 @@
 					<string>string.other.raw.syntax.markdown</string>
 				</dict>
 			</dict>
+			<key>contentName</key>
+			<string>source.css</string>
 			<key>end</key>
 			<string>(^|\G)\s*(\2)\n?</string>
 			<key>endCaptures</key>
@@ -323,6 +339,8 @@
 					<string>string.other.raw.syntax.markdown</string>
 				</dict>
 			</dict>
+			<key>contentName</key>
+			<string>source.c++</string>
 			<key>end</key>
 			<string>(^|\G)\s*(\2)\n?</string>
 			<key>endCaptures</key>
@@ -359,6 +377,8 @@
 					<string>string.other.raw.syntax.markdown</string>
 				</dict>
 			</dict>
+			<key>contentName</key>
+			<string>source.cs</string>
 			<key>end</key>
 			<string>(^|\G)\s*(\2)\n?</string>
 			<key>endCaptures</key>
@@ -370,7 +390,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>markup.raw.block.csharp</string>
+			<string>markup.raw.block.cs</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -395,6 +415,8 @@
 					<string>string.other.raw.syntax.markdown</string>
 				</dict>
 			</dict>
+			<key>contentName</key>
+			<string>source.c</string>
 			<key>end</key>
 			<string>(^|\G)\s*(\2)\n?</string>
 			<key>endCaptures</key>
@@ -431,6 +453,8 @@
 					<string>string.other.raw.syntax.markdown</string>
 				</dict>
 			</dict>
+			<key>contentName</key>
+			<string>text.html.basic</string>
 			<key>end</key>
 			<string>(^|\G)\s*(\2)\n?</string>
 			<key>endCaptures</key>
@@ -467,6 +491,8 @@
 					<string>string.other.raw.syntax.markdown</string>
 				</dict>
 			</dict>
+			<key>contentName</key>
+			<string>source.shell</string>
 			<key>end</key>
 			<string>(^|\G)\s*(\2)\n?</string>
 			<key>endCaptures</key>
@@ -503,6 +529,8 @@
 					<string>string.other.raw.syntax.markdown</string>
 				</dict>
 			</dict>
+			<key>contentName</key>
+			<string>source.go</string>
 			<key>end</key>
 			<string>(^|\G)\s*(\2)\n?</string>
 			<key>endCaptures</key>
@@ -539,6 +567,8 @@
 					<string>string.other.raw.syntax.markdown</string>
 				</dict>
 			</dict>
+			<key>contentName</key>
+			<string>source.swift</string>
 			<key>end</key>
 			<string>(^|\G)\s*(\2)\n?</string>
 			<key>endCaptures</key>
