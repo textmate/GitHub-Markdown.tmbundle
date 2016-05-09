@@ -27,7 +27,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
+					<string>punctuation.definition.raw.begin.markdown</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -36,7 +36,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\s*\2\n?</string>
+			<string>(^|\G)\s*(\2)\n?</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.end.markdown</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.bibtex</string>
 			<key>patterns</key>
@@ -55,7 +63,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
+					<string>punctuation.definition.raw.begin.markdown</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -64,7 +72,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\s*\2\n?</string>
+			<string>(^|\G)\s*(\2)\n?</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.end.markdown</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.javascript</string>
 			<key>patterns</key>
@@ -83,7 +99,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
+					<string>punctuation.definition.raw.begin.markdown</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -92,7 +108,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\s*\2\n?</string>
+			<string>(^|\G)\s*(\2)\n?</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.end.markdown</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.java</string>
 			<key>patterns</key>
@@ -111,7 +135,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
+					<string>punctuation.definition.raw.begin.markdown</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -120,7 +144,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\s*\2\n?</string>
+			<string>(^|\G)\s*(\2)\n?</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.end.markdown</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.latex</string>
 			<key>patterns</key>
@@ -139,7 +171,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
+					<string>punctuation.definition.raw.begin.markdown</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -148,7 +180,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\s*\2\n?</string>
+			<string>(^|\G)\s*(\2)\n?</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.end.markdown</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.ruby</string>
 			<key>patterns</key>
@@ -167,7 +207,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
+					<string>punctuation.definition.raw.begin.markdown</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -176,7 +216,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\s*\2\n?</string>
+			<string>(^|\G)\s*(\2)\n?</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.end.markdown</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.php</string>
 			<key>patterns</key>
@@ -195,7 +243,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
+					<string>punctuation.definition.raw.begin.markdown</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -204,7 +252,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\s*\2\n?</string>
+			<string>(^|\G)\s*(\2)\n?</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.end.markdown</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.python</string>
 			<key>patterns</key>
@@ -223,7 +279,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
+					<string>punctuation.definition.raw.begin.markdown</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -232,7 +288,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\s*\2\n?</string>
+			<string>(^|\G)\s*(\2)\n?</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.end.markdown</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.css</string>
 			<key>patterns</key>
@@ -251,7 +315,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
+					<string>punctuation.definition.raw.begin.markdown</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -260,7 +324,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\s*\2\n?</string>
+			<string>(^|\G)\s*(\2)\n?</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.end.markdown</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.c++</string>
 			<key>patterns</key>
@@ -279,7 +351,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
+					<string>punctuation.definition.raw.begin.markdown</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -288,7 +360,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\s*\2\n?</string>
+			<string>(^|\G)\s*(\2)\n?</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.end.markdown</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.csharp</string>
 			<key>patterns</key>
@@ -307,7 +387,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
+					<string>punctuation.definition.raw.begin.markdown</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -316,7 +396,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\s*\2\n?</string>
+			<string>(^|\G)\s*(\2)\n?</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.end.markdown</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.c</string>
 			<key>patterns</key>
@@ -335,7 +423,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
+					<string>punctuation.definition.raw.begin.markdown</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -344,7 +432,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\s*\2\n?</string>
+			<string>(^|\G)\s*(\2)\n?</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.end.markdown</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.html</string>
 			<key>patterns</key>
@@ -363,7 +459,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
+					<string>punctuation.definition.raw.begin.markdown</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -372,7 +468,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\s*\2\n?</string>
+			<string>(^|\G)\s*(\2)\n?</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.end.markdown</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.shell</string>
 			<key>patterns</key>
@@ -391,7 +495,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
+					<string>punctuation.definition.raw.begin.markdown</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -400,7 +504,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\s*\2\n?</string>
+			<string>(^|\G)\s*(\2)\n?</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.end.markdown</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.go</string>
 			<key>patterns</key>
@@ -419,7 +531,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
+					<string>punctuation.definition.raw.begin.markdown</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -428,7 +540,15 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\s*\2\n?</string>
+			<string>(^|\G)\s*(\2)\n?</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.end.markdown</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github.swift</string>
 			<key>patterns</key>
@@ -447,11 +567,19 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.raw.markdown</string>
+					<string>punctuation.definition.raw.begin.markdown</string>
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(^|\G)\s*\2\n?</string>
+			<string>(^|\G)\s*(\2)\n?</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.end.markdown</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>markup.raw.block.markdown.github</string>
 		</dict>
