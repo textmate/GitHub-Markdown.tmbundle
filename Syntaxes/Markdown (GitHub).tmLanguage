@@ -46,7 +46,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>markup.raw.block.markdown.github.bibtex</string>
+			<string>markup.raw.block.bibtex</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -82,7 +82,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>markup.raw.block.markdown.github.javascript</string>
+			<string>markup.raw.block.javascript</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -118,7 +118,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>markup.raw.block.markdown.github.java</string>
+			<string>markup.raw.block.java</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -154,7 +154,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>markup.raw.block.markdown.github.latex</string>
+			<string>markup.raw.block.latex</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -190,7 +190,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>markup.raw.block.markdown.github.ruby</string>
+			<string>markup.raw.block.ruby</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -226,7 +226,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>markup.raw.block.markdown.github.php</string>
+			<string>markup.raw.block.php</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -262,7 +262,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>markup.raw.block.markdown.github.python</string>
+			<string>markup.raw.block.python</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -298,7 +298,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>markup.raw.block.markdown.github.css</string>
+			<string>markup.raw.block.css</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -334,7 +334,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>markup.raw.block.markdown.github.c++</string>
+			<string>markup.raw.block.c++</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -370,7 +370,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>markup.raw.block.markdown.github.csharp</string>
+			<string>markup.raw.block.csharp</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -406,7 +406,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>markup.raw.block.markdown.github.c</string>
+			<string>markup.raw.block.c</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -442,7 +442,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>markup.raw.block.markdown.github.html</string>
+			<string>markup.raw.block.html</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -478,7 +478,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>markup.raw.block.markdown.github.shell</string>
+			<string>markup.raw.block.shell</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -514,7 +514,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>markup.raw.block.markdown.github.go</string>
+			<string>markup.raw.block.go</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -550,7 +550,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>markup.raw.block.markdown.github.swift</string>
+			<string>markup.raw.block.swift</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -581,7 +581,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>markup.raw.block.markdown.github</string>
+			<string>markup.raw.block</string>
 		</dict>
 		<dict>
 			<key>captures</key>
