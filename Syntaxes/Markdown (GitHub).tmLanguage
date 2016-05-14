@@ -7,7 +7,7 @@
 	<key>hideFromUser</key>
 	<true/>
 	<key>injectionSelector</key>
-	<string>(text.html.markdown)</string>
+	<string>text.html.markdown $, text.html.markdown meta.paragraph.markdown $</string>
 	<key>name</key>
 	<string>Markdown (GitHub)</string>
 	<key>patterns</key>
