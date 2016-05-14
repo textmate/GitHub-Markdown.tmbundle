@@ -656,7 +656,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\|)?(.+)(\|)(.+)(\|)?</string>
+			<string>(^|\G)(\|)(?=[^|]+\|)</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -664,31 +664,51 @@
 					<key>name</key>
 					<string>punctuation.definition.table.markdown.github</string>
 				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
-					<string>string.other.table.markdown.github</string>
-				</dict>
-				<key>3</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.table.markdown.github</string>
-				</dict>
-				<key>4</key>
-				<dict>
-					<key>name</key>
-					<string>string.other.table.markdown.github</string>
-				</dict>
-				<key>5</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.table.markdown.github</string>
-				</dict>
 			</dict>
 			<key>end</key>
-			<string>(?!(.+)(\|)(.+))</string>
+			<string>(?&lt;!\|)(^|\G)(?!\|)</string>
 			<key>name</key>
-			<string>markup.raw.table.markdown.github</string>
+			<string>markup.other.table.markdown.github</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\|</string>
+					<key>name</key>
+					<string>punctuation.definition.table.markdown.github</string>
+				</dict>
+				<dict>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.separator.header.markdown.github</string>
+						</dict>
+					</dict>
+					<key>match</key>
+					<string>(?&lt;=\|)\s*(:?-+:?)\s*(?=\|)</string>
+				</dict>
+				<dict>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>string.other.table.markdown.github</string>
+							<key>patterns</key>
+							<array>
+								<dict>
+									<key>include</key>
+									<string>text.html.markdown#inline</string>
+								</dict>
+							</array>
+						</dict>
+					</dict>
+					<key>match</key>
+					<string>(?&lt;=\|)\s*(?=\S)((\\\||[^|])+)(?&lt;=\S)\s*(?=\|)</string>
+				</dict>
+			</array>
 		</dict>
 	</array>
 	<key>scopeName</key>
