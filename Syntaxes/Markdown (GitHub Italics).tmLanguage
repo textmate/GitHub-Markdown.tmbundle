@@ -3,20 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
-	<array>
-		<string>md</string>
-		<string>mdown</string>
-		<string>markdown</string>
-		<string>markdn</string>
-	</array>
+	<array/>
 	<key>hideFromUser</key>
 	<true/>
 	<key>injectionSelector</key>
-	<string>(L:text.html.markdown)</string>
-	<key>keyEquivalent</key>
-	<string>^~M</string>
+	<string>(L:text.html.markdown markup.italic.markdown)</string>
 	<key>name</key>
-	<string>Markdown (GitHub Injected)</string>
+	<string>Markdown (GitHub Italics)</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -27,17 +20,11 @@
 					<key>name</key>
 					<string>punctuation.definition.italic.markdown.github</string>
 				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
-					<string>string.other.italic.markdown.github</string>
-				</dict>
-				<key>3</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.italic.markdown.github</string>
-				</dict>
 			</dict>
+			<key>comment</key>
+			<string>This rule matches underscores inside italics rules to catch the difference
+						between the handling of these between the standard Markdown and GitHub's
+						variant.</string>
 			<key>match</key>
 			<string>(_)(?=\w)(?&lt;=\w_)</string>
 			<key>name</key>
