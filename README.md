@@ -3,8 +3,6 @@ Provides some [GitHub Flavoured Markdown](https://help.github.com/articles/githu
 
 ## Features
 - Add a new "Preview" command (overriding the existing Markdown preview) using [Redcarpet](https://github.com/vmg/redcarpet) to render GitHub Flavoured Markdown
-- Render all Markdown editor headings the same relative size as in the preview
-- Use the default font size for the Markdown editor hash/pound prefix
 - Support triple-backtick raw blocks and support syntax highlighting for various languages (others can be added trivially)
 - Support and highlight GitHub Flavoured Markdown strikethroughs, tables, references, checkboxes and italics
 
