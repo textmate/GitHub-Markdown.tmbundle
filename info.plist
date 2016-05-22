@@ -7,7 +7,7 @@
 	<key>contactName</key>
 	<string>Mike McQuaid</string>
 	<key>description</key>
-	<string>GitHub Flavoured Markdown for TextMate</string>
+	<string>GFM syntax highlighting and preview.</string>
 	<key>name</key>
 	<string>Markdown (GitHub)</string>
 	<key>uuid</key>
