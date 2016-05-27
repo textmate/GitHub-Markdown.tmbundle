@@ -10,6 +10,10 @@ You can also use nicer fonts by installing the [GitHub Flavoured Markdown Font S
 
 ## Installation
 ### TextMate 2
+
+Check "Markdown (GitHub)" in TextMate 2's Preferences' Bundles.
+
+Alternatively:
 ```bash
 mkdir -p ~/Library/Application\ Support/Avian/Bundles
 cd ~/Library/Application\ Support/Avian/Bundles
