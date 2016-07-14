@@ -40,6 +40,15 @@ def checkbox_html(checked)
   "<li><input type='checkbox' #{"checked" if checked} style='margin-right:0.5em;'/>"
 end
 
+def strip_yaml_frontmatter(text)
+  delimiter = /^---\s*$/
+  lines = text.split("\n")
+  if lines[0] =~ delimiter && (end_of_frontmatter = lines[1..-1].find_index{ |l| l =~ delimiter }) != nil
+    lines.slice!(0, end_of_frontmatter + 1)
+  end
+  lines.join("\n")
+end
+
 def markdown(text)
   options = {
     :filter_html     => true,
@@ -63,4 +72,4 @@ def markdown(text)
 end
 
 puts "<style>#{Pygments.css(:style => "colorful")}</style>"
-puts markdown(ARGF.read)
+puts markdown(strip_yaml_frontmatter(ARGF.read))
