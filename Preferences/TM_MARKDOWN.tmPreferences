@@ -12,7 +12,7 @@
 				<key>name</key>
 				<string>TM_MARKDOWN</string>
 				<key>value</key>
-				<string>$TM_BUNDLE_SUPPORT/bin/redcarpet.rb</string>
+				<string>eval '${TM_BUNDLE_SUPPORT/'/'\''/g}/bin/redcarpet.rb'</string>
 			</dict>
 		</array>
 	</dict>
