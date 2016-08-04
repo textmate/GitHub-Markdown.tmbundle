@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>TM_MARKDOWN</string>
+	<key>settings</key>
+	<dict>
+		<key>shellVariables</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>TM_MARKDOWN</string>
+				<key>value</key>
+				<string>eval '${TM_BUNDLE_SUPPORT/'/'\''/g}/bin/redcarpet.rb'</string>
+			</dict>
+		</array>
+	</dict>
+	<key>uuid</key>
+	<string>1DC6BEA7-C742-45CE-92D7-8F69D914DC93</string>
+</dict>
+</plist>
