@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\`\`\`${1|bash,bib,c,c#,c++,cpp,csharp,css,go,html,inc,java,javascript,jruby,js,latex,macruby,node,php,python,rake,rb,rbx,ruby,rusthon,sh,shell,swift,tex,xhtml,zsh|}
+$0
+\`\`</string>
+	<key>name</key>
+	<string>Insert Code Block</string>
+	<key>tabTrigger</key>
+	<string>`</string>
+	<key>uuid</key>
+	<string>801405C3-C14D-4C1D-8353-AF6A54FED3D8</string>
+</dict>
+</plist>
