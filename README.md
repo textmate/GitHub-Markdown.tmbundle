@@ -3,7 +3,7 @@ Provides some [GitHub Flavoured Markdown](https://help.github.com/articles/githu
 
 ## Features
 - Add a new "Preview" command (overriding the existing Markdown preview) using [Redcarpet](https://github.com/vmg/redcarpet) to render GitHub Flavoured Markdown
-- Support triple-backtick raw blocks and support syntax highlighting for various languages (others can be added trivially)
+- Support triple-backtick raw blocks and support syntax highlighting for various languages (others can be added trivially). There’s also a tab trigger for inserting raw blocks: Just type a single backtick (<kbd>`</kbd>) and then hit the tab key.
 - Support and highlight GitHub Flavoured Markdown strikethroughs, tables, references, checkboxes and italics
 
 You can also use nicer fonts by installing the [GitHub Flavoured Markdown Font Settings bundle](https://github.com/mikemcquaid/GitHub-Markdown-Font-Settings.tmbundle).
