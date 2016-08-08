@@ -1,0 +1,3 @@
+script:
+  - xmllint --valid *.plist */*.tm* >/dev/null
+  - ruby -c */*/*.rb
