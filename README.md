@@ -14,14 +14,14 @@ You can also use nicer fonts by installing the [GitHub Flavoured Markdown Font S
 Check "Markdown (GitHub)" in TextMate 2's Preferences' Bundles.
 
 Alternatively:
-```bash
+```
 mkdir -p ~/Library/Application\ Support/Avian/Bundles
 cd ~/Library/Application\ Support/Avian/Bundles
 git clone https://github.com/mikemcquaid/GitHub-Markdown.tmbundle
 ```
 
 ### TextMate 1
-```bash
+```
 mkdir -p ~/Library/Application\ Support/TextMate/Bundles
 cd ~/Library/Application\ Support/TextMate/Bundles
 git clone https://github.com/mikemcquaid/GitHub-Markdown.tmbundle
