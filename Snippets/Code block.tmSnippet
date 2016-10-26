@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\`\`\`${1|bash,bib,c,c#,c++,cpp,csharp,css,go,html,inc,java,javascript,jruby,js,latex,macruby,node,php,py,python,rake,rb,rbx,ruby,rusthon,sh,shell,swift,tex,xhtml,yaml,yml,zsh|}
+	<string>\`\`\`${1|bash,bib,c,c#,c++,cpp,csharp,css,go,haskell,hs,html,inc,java,javascript,jruby,js,latex,macruby,node,php,py,python,rake,rb,rbx,ruby,rusthon,sh,shell,swift,tex,xhtml,yaml,yml,zsh|}
 $0
 \`\`</string>
 	<key>name</key>
