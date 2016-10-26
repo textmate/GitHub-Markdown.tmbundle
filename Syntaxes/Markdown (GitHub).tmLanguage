@@ -812,6 +812,44 @@
 		</dict>
 		<dict>
 			<key>begin</key>
+			<string>(^|\G)\s*([`~]{3,})\s*([Rr])\s*$</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.begin.markdown</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>storage.type.language.markdown</string>
+				</dict>
+			</dict>
+			<key>contentName</key>
+			<string>source.r</string>
+			<key>end</key>
+			<string>(^|\G)\s*(\2)\n?</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.end.markdown</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>markup.raw.block.r</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.r</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>(^|\G)\s*([`~]{3,})\s*(ruby|jruby|macruby|rake|rb|rbx)\s*$</string>
 			<key>beginCaptures</key>
 			<dict>
