@@ -242,7 +242,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(^|\G)\s*([`~]{3,})\s*(python|rusthon)\s*$</string>
+			<string>(^|\G)\s*([`~]{3,})\s*(py(?:thon)?|rusthon)\s*$</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>2</key>
