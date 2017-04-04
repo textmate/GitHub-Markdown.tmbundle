@@ -888,6 +888,44 @@
 		</dict>
 		<dict>
 			<key>begin</key>
+			<string>(^|\G)\s*([`~]{3,})\s*(sass)\s*$</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.begin.markdown</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>storage.type.language.markdown</string>
+				</dict>
+			</dict>
+			<key>contentName</key>
+			<string>source.sass</string>
+			<key>end</key>
+			<string>(^|\G)\s*(\2)\n?</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.raw.end.markdown</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>markup.raw.block.sass</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.sass</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>(^|\G)\s*([`~]{3,})\s*(php|inc)\s*$</string>
 			<key>beginCaptures</key>
 			<dict>
