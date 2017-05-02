@@ -7,7 +7,7 @@
 	<key>hideFromUser</key>
 	<true/>
 	<key>injectionSelector</key>
-	<string>(L:text.html.markdown markup.italic.markdown)</string>
+	<string>(L:text.html.markdown)</string>
 	<key>name</key>
 	<string>Markdown (GitHub Italics)</string>
 	<key>patterns</key>
@@ -22,13 +22,14 @@
 				</dict>
 			</dict>
 			<key>comment</key>
-			<string>This rule matches underscores inside italics rules to catch the difference
-						between the handling of these between the standard Markdown and GitHub's
-						variant.</string>
+			<string>This rule matches underscores inside words to avoid italicizing partial words
+				(the grammar gets injected into the main Markdown grammar, so its rules have higher
+				precedence and thus prevent the main Markdown grammar’s pattern for italic text from
+				matching these underscores.)</string>
 			<key>match</key>
-			<string>(_)(?=\w)(?&lt;=\w_)</string>
+			<string>(_)(?=\w)(?&lt;=\w)</string>
 			<key>name</key>
-			<string>markup.italic.markdown.github</string>
+			<string>markup.other</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
