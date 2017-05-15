@@ -27,7 +27,7 @@
 				precedence and thus prevent the main Markdown grammar’s pattern for italic text from
 				matching these underscores.)</string>
 			<key>match</key>
-			<string>(_)(?=\w)(?&lt;=\w)</string>
+			<string>(?&lt;=\w)(_)(?=\w)</string>
 			<key>name</key>
 			<string>markup.other</string>
 		</dict>
