@@ -7,7 +7,7 @@
 	<key>hideFromUser</key>
 	<true/>
 	<key>injectionSelector</key>
-	<string>(L:text.html.markdown)</string>
+	<string>L:(text.html.markdown - (markup.italic.markdown))</string>
 	<key>name</key>
 	<string>Markdown (GitHub Italics)</string>
 	<key>patterns</key>
