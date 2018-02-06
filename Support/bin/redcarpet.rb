@@ -20,7 +20,7 @@ rescue LoadError
   puts <<-EOS
 <p>Please install the Redcarpet and Pygments.rb RubyGems by running the following:</p>
 
-<pre><code>/usr/bin/gem install --user redcarpet pygments.rb</code></pre>
+<pre><code>sudo /usr/bin/gem install --user redcarpet pygments.rb</code></pre>
 EOS
   exit 0
 end
