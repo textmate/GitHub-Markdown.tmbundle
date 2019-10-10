@@ -27,7 +27,7 @@ Tested using TextMate 2. May work in TextMate 1 or Sublime Text; I've no idea.
 [Patches welcome](https://github.com/mikemcquaid/GitHub-Markdown.tmbundle/pulls).
 
 ## Maintainers
-[@noniq](https://github.com/noniq) and [@MikeMcQuaid](https://github.com/MikeMcQuaid)
+Currently maintained by [@noniq](https://github.com/noniq), originally created and maintained by [@MikeMcQuaid](https://github.com/MikeMcQuaid)
 
 ## License
 GitHub-Markdown.tmbundle is licensed under the [MIT License](http://en.wikipedia.org/wiki/MIT_License). The full license text is
