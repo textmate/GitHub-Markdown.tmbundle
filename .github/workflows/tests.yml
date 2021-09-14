@@ -1,0 +1,13 @@
+name: CI
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+jobs:
+  syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - run: xmllint --valid *.plist */*.tm* >/dev/null
+      - run: ruby -c */*/*.rb

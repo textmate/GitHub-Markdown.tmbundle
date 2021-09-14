@@ -6,7 +6,7 @@ Provides some [GitHub Flavoured Markdown](https://help.github.com/articles/githu
 - Support triple-backtick raw blocks and support syntax highlighting for various languages (others can be added trivially). There’s also a tab trigger for inserting raw blocks: Just type a single backtick (<kbd>`</kbd>) and then hit the tab key.
 - Support and highlight GitHub Flavoured Markdown strikethroughs, tables, references, checkboxes and italics
 
-You can also use nicer fonts by installing the [GitHub Flavoured Markdown Font Settings bundle](https://github.com/mikemcquaid/GitHub-Markdown-Font-Settings.tmbundle).
+You can also use nicer fonts by installing the [GitHub Flavoured Markdown Font Settings bundle](https://github.com/textmate/GitHub-Markdown-Font-Settings.tmbundle).
 
 ## Installation
 
@@ -16,7 +16,7 @@ Alternatively:
 ```bash
 mkdir -p ~/Library/Application\ Support/TextMate/Bundles
 cd ~/Library/Application\ Support/TextMate/Bundles
-git clone https://github.com/mikemcquaid/GitHub-Markdown.tmbundle
+git clone https://github.com/textmate/GitHub-Markdown.tmbundle
 ```
 
 ## Status
@@ -24,7 +24,7 @@ The above features are tested and working for my day-to-day.
 
 Tested using TextMate 2. May work in TextMate 1 or Sublime Text; I've no idea.
 
-[Patches welcome](https://github.com/mikemcquaid/GitHub-Markdown.tmbundle/pulls).
+[Patches welcome](https://github.com/textmate/GitHub-Markdown.tmbundle/pulls).
 
 ## Maintainers
 Currently maintained by [@noniq](https://github.com/noniq), originally created and maintained by [@MikeMcQuaid](https://github.com/MikeMcQuaid)
@@ -32,4 +32,4 @@ Currently maintained by [@noniq](https://github.com/noniq), originally created a
 ## License
 GitHub-Markdown.tmbundle is licensed under the [MIT License](http://en.wikipedia.org/wiki/MIT_License). The full license text is
 available in
-[LICENSE.txt](https://github.com/mikemcquaid/GitHub-Markdown.tmbundle/blob/master/LICENSE.txt).
+[LICENSE.txt](https://github.com/textmate/GitHub-Markdown.tmbundle/blob/master/LICENSE.txt).
