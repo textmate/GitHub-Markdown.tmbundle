@@ -1,4 +1,4 @@
-#!/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/bin/ruby
+#!/usr/bin/env ruby
 # Usage: markdown-github.rb [<file>...]
 # Convert one or more GitHub Flavored Markdown files to HTML and print to
 # standard output. With no <file> or when <file> is "-", read GitHub Flavored
